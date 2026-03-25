@@ -17,7 +17,9 @@
 <section id="sobre">
     <h2>Sobre Mim</h2>
     <p>Profissional especializado em desenvolvimento web com foco em performance, escalabilidade e experiência do usuário.</p>
-    <p>Email: moys.dev@gmail.com</p>
+    
+     <!--> <p>Email: moys.dev@gmail.com</p> <!-->
+    
     <p>LinkedIn: <a href="https://www.linkedin.com/in/moyses-silva/" target="_blank">Meu LinkedIn - Moyses Silva</a></p>
 </section>
 
@@ -41,6 +43,7 @@
     </ul>
 </section>
 
+<!-->
 <section id="contato">
     <h2>Contato / Solicitação de Projeto</h2>
     <form>
@@ -51,8 +54,26 @@
         <textarea placeholder="Descreva sua proposta ou necessidade do seu negócio..." required></textarea>
         <button type="submit">Enviar Solicitação</button>
     </form>
-</section>
+</section><!-->
 
+<section id="contato">
+    <h2>Contato / Solicitação de Projeto</h2>
+    
+    <form action="https://api.web3forms.com/submit" method="POST">
+        
+	<input type="hidden" name="access_key" value="acd78be2-ceca-4cee-a8f6-f6e1cf854ae1">
+
+        <input type="text" name="nome" placeholder="Nome completo" required>
+        <input type="text" name="empresa" placeholder="Nome da Empresa">
+        <input type="text" name="telefone" placeholder="Telefone/WhatsApp" required>
+        <input type="email" name="email" placeholder="Email" required>
+       
+        <textarea name="mensagem" placeholder="Descreva sua proposta..." required></textarea>
+
+        <button type="submit">Enviar Solicitação</button>
+    </form>
+</section>
+    
 <a href="https://wa.me/message/LJWLQ2M5SK6NB1"  target="_blank"
     class="link-whatsapp">
     <img src="./img/whatsapp.png" alt="Chama no WhatsApp">
